@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/s-ieremenko/test-on/issues"
   },
-  "homepage": "https://github.com/s-ieremenko/test-on#readme"
+  "homepage": "https://github.com/s-ieremenko/test-on#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.60.0"
+  }
 }
