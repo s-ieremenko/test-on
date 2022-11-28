@@ -19,6 +19,7 @@ console.log('Telegram bot started...')
 // }
 exports.handler = async (event) => {
     console.log(event.body)
+    console.log('event', event)
     bot.on('message', msg => {
         const { chat: { id, first_name }, text } = msg
 
